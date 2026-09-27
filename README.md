@@ -1,14 +1,22 @@
-# iQuarters web
+# iQuarters-dank
 
 **The 2010 coin-tossing game, playable in your browser. C# gameplay, WebAssembly, and WebGL — no Unity.**
 
-[**Play iQuarters**](https://strawberrypoptarts.github.io/iQuarters-web/)
+[**Play iQuarters-dank**](https://strawberrypoptarts.github.io/iQuarters-dank/)
 
 Flick a quarter, bounce it across the table, and land it in a glass. This independent web port includes the recovered assets, C# physics, menus, scoring, round progression, animations, replay, and save logic.
 
+## The brainrot edition
+
+A separate cosmetic remix of [iQuarters-web](https://github.com/strawberrypoptarts/iQuarters-web): a yellow Verity coin, Tung Tung Sahur bobblehead, Ballerina Cappuccina dancer, Tralalero shark and Bombardiro plane models, wall-to-wall character images, meme-covered props, slang menus, and score reactions. The recovered C# physics, scoring, levels, cameras, and animations are unchanged. Character visuals retain the original collision shapes.
+
+The supplied Verity greeting plays on entry and from **VERITY CALL**. Tung Tung Sahur celebrates scoring, with a cooldown to avoid constant overlapping clips. **MEME VOICES** disables the added voices; the original sound setting is also respected. Saves are separate from the original web edition.
+
+This mixes established 2025 memes with September 2026 Verity references; it is not a claim that every meme originated in 2026. [Meme and audio references](MEME_CREDITS.md).
+
 ## Playing
 
-- Press **Play** to enable browser audio, then use the original game menus.
+- Press **LOCK IN** to enable browser audio, then use the original game menus.
 - Flick with a mouse or touch; swipe strength uses event timestamps.
 - Games and high scores are saved in this browser. Clearing site data clears them.
 - Wide screens use a centered portrait playfield.
